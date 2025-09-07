@@ -1,0 +1,608 @@
+/* -----------------------font link------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* ---------------------font link done---------------------------------------- */
+
+/* -------------------------------common css working---------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+h1 h2 h3 h4 h5 h6 ul p{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --brand: #3F4255;
+    --best: #121232;
+    --martelSans: "Martel Sans", sans-serif;
+    --poppins: "Poppins", sans-serif;
+}
+/* --------------------------------common css done----------------------------- */
+/* ----------------------navbar part working------------------------ */
+.my_food img{
+    width: 185px;
+}
+
+.my_food ul {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--martelSans);
+    color: #9093A6;
+    margin-top: 12px;
+    gap: 18px;
+}
+
+.my_food a{
+    display: flex;
+    gap: 2px;
+}
+
+.my_food{
+border: 1px solid #D4D7E5;
+}
+
+
+
+/* -----------------------navbar part done-------------------- */
+/* ------------------------banner part working----------------- */
+#banner{
+    padding-top: 120px;
+    position: relative;
+}
+
+.banner_text h1{
+   max-width: 534px;
+    font-size: 58px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand);
+}
+
+.banner_text h2 span{
+    max-width: 534px;
+    font-size: 58px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand);
+}
+
+
+.typewriter {
+	width: 21.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
+}
+
+
+
+
+
+
+
+/* From Uiverse.io by mobinkakei */ 
+.btn {
+  width: 140px;
+  height: 50px;
+  background: #FFE145;
+  color: var(--best);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-top: 88px;
+  
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.btn:hover .btn-text-two {
+  top: 50%;
+}
+
+
+.add_button{
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.banner_imgae img {
+	width: 812px;
+	position: absolute;
+	top: 25px;
+	right: 80px;
+    
+}
+
+/* ---------------------banner part working---------------------- */
+/* ----------------------services part working------------------------ */
+.service_part{
+    width: 872px;
+    height: 104px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    display: flex;
+    gap: 46px;
+    margin-top: 280px;
+    padding-top: 24px;
+   padding-left: 20px;
+}
+
+
+.service_text img{
+    width: 48px;
+    height: 48px;
+}
+
+.service_text p{
+     font-size: 16px;
+    font-weight: 400;
+    font-family: var(--martelSans);
+    color: var(--brand);
+    
+}
+
+.service_text{
+    display: flex;
+    gap: 16px;
+}
+/* -------------------services part working----------------------- */
+/* ----------------------------restudent part working----------------- */
+#restudent{
+    margin-top: 48px;
+    position: relative;
+}
+
+.restudent_text button {
+	width: 118px;
+	height: 48px;
+	background-color: #F2F4FA;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: #9093A6;
+	color: var(--brand);
+	border: none;
+	border-radius: 4px;
+	position: absolute;
+	top: -13px;
+	right: 100px;
+}
+
+.restudent_text h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--brand);
+}
+
+.slider-sin-item img{
+    width: 296px;
+    height: 296px;
+}
+
+.restudent_slider{
+    display: flex;
+    gap: 24px;
+}
+
+
+
+
+.myarr{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #42454A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .4s;
+    position: absolute;
+    bottom: -100px;
+}
+
+.prr{
+    left: 47%;
+}
+
+.nrr{
+    left: 51%;
+}
+
+.myarr:hover{
+    background: var(--primary-color);
+    color: #fff;
+}
+/* -----------------------------restudent part done---------------------------- */
+/* -----------------------------address part working------------------------------- */
+#address{
+    width: 100%;
+    height: 297px;
+    background-color: #F2F4FA;
+    padding-top: 80px;
+    margin-top: 72px;
+    position: relative;
+}
+
+.address_text h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand);
+}
+
+.address_text p{
+    width: 424px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--martelSans);
+    color: var(--brand);
+    padding-top: 24px;
+}
+
+.address_input input {
+	width: 336px;
+	height: 72px;
+	border-radius: 6px;
+	background-color: #fff;
+	position: absolute;
+	top: 116px;
+	right: 455px;
+}
+
+.address_button button {
+	width: 88px;
+	height: 72px;
+	background-color: #FFE145;
+	border-radius: 4px;
+	position: absolute;
+	top: 114px;
+	right: 364px;
+}
+
+.address_input input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: #9093A6;
+    color: var(--brand);
+}
+
+/* ----------------------------address part done--------------------------- */
+/* ----------------------------Specialities part working----------------------- */
+.Specialities_text h2{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand);
+    padding-top: 72px;
+}
+
+.button_text button {
+	width: 118px;
+	height: 48px;
+	background-color: #F2F4FA;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: #9093A6;
+	color: var(--brand);
+	border: none;
+	border-radius: 4px;
+	position: absolute;
+	top: 72px;
+	right: 92px;
+}
+#Specialities{
+    position: relative;
+}
+
+.Specialities_image img{
+    width: 136px;
+    height: 136px;
+}
+
+.Specialities_slider{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    position: relative;
+}
+
+.myarr {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	border: 1px solid #42454A;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all linear .4s;
+	position: absolute;
+	top: 45px;
+}
+.prr {
+	left: 92%;
+}
+.nrr {
+	left: -45px;
+}
+.myarr:hover{
+    background: var(--primary-color);
+    color: #fff;
+}
+/* ----------------------------Specialities part done--------------------------- */
+/* -----------------------information part working------------------------------- */
+.information_image img{
+    max-width: 100%;
+    height: 284px;
+    margin-top: 72px;
+}
+
+.information_maps img {
+	width: 1260px;
+	height: 600px;
+	margin-top: -120px;
+}
+/* ------------------information part working----------------------- */
+/* ---------------------------YellowKitchens part working--------------------- */
+.YellowKitchens_text h2{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #313030;
+    
+}
+
+.YellowKitchens_text h2 span{
+    color: #9093A6;
+    font-family: var(--poppins);
+}
+
+#YellowKitchens{
+    margin-top: 72px;
+}
+
+.YellowKitchens_part img{
+    width: 296px;
+    height: 299px;
+    margin-top: 21px;
+}
+
+.YellowKitchens_image{
+    display: flex;
+    gap: 24px; 
+}
+/* -----------------------------YellowKitchens part done-------------------------- */
+/* ------------------------------footer part working------------------------------- */
+#footer{
+    width: 100%;
+    height: 437px;
+    background-color: #3F4255;
+    margin-top: 72px;
+    
+}
+
+.footer_logo img {
+	width: 185px;
+	margin-top: -510px;
+}
+
+.footer_main {
+	width: 296px;
+	height: 1px;
+	background-color: #D4D7E5;
+	margin-top: -200px;
+}
+
+.social_apps{
+    display: flex;
+    gap: 9px;
+    margin-top: 49px;
+}
+
+.apps_info a{
+    width: 79px;
+    height: 28px;
+}
+
+.social_app {
+    display: flex;
+    gap: 24px;
+}
+
+.social_app a{
+    font-size: 24px;
+    color: #D4D7E5;
+    margin-top: 167px;
+}
+
+
+.footer_row{
+    display: flex;
+    gap: 131px;
+    justify-content: end;
+}
+
+.footer_text h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #fff;
+    margin-top: 70px;
+}
+
+.footer_text ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--martelSans);
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.fa-solid .fa-caret-down{
+    color: #fff;
+}
+
+.footer_item ul{
+    display: flex;
+    gap: 54px;
+    margin-top: 361px;
+    padding-right: 85px;
+    
+}
+
+
+
+
+/* From Uiverse.io by david-mohseni */ 
+.wrapper{
+    display: flex;
+    gap: 10px;
+    margin-top: 120px;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877f2;
+  color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #e4405f;
+  color: #fff;
+}
+
+
+
+
